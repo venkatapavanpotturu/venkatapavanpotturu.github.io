@@ -1,0 +1,59 @@
+title: "Vicky's Portfolio"
+description: "Welcome to my portfolio!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://your-username.github.io" # the base hostname & protocol for 
+your site
+
+author:
+  name: "Vicky"
+  email: "vicky@example.com"
+
+social:
+  twitter: vicky_twitter
+  github: vicky_github
+  linkedin: vicky_linkedin
+
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Blog"
+    url: "/blog"
+
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  hard_wrap: false
+  disable_indented_code_blocks: false
+  parse_block_html: true
+  parse_span_html: true
+  parse_escaped_entites: true
+  use_coderay: false
+
+permalink: /:year/:month/:day/:title/
+
+
+
+
+
+
+
+
+
+
+
+
